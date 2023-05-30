@@ -11,6 +11,7 @@
     "postinstall": "npm run z:initial:environment",
     "precommit": "npm run z:lint:staged:quiet",
     "prepare": "npm run z:husky:install && echo do other prepare work with here",
+    "start": "cd packages/antd-management-fast-template && npm run start",
     "test:antd-management-fast-template": "cd packages/antd-management-fast-template && npm run z:test",
     "z:auto:adjust:file:all": "npm run z:auto:adjust:file:antd-management-fast-template",
     "z:auto:adjust:file:antd-management-fast-template": "cd packages/antd-management-fast-template && npm run z:auto:adjust:file",
