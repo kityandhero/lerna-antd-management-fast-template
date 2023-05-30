@@ -1,0 +1,9 @@
+{
+  "list": [
+    {
+      "functionSegment": "WebChannel",
+      "label": "Web渠道",
+      "name": "webChannelId"
+    }
+  ]
+}

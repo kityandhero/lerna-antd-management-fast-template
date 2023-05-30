@@ -1,0 +1,22 @@
+{
+  "packages": ["packages/*"],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "pnpm",
+  "command": {
+    "updated": {
+      "conventionalCommits": true,
+      "changelogPreset": "conventional-changelog-conventionalcommits"
+    },
+    "version": {
+      "conventionalCommits": true,
+      "message": "chore(lerna-antd-management-fast-template): version",
+      "changelogPreset": "conventional-changelog-conventionalcommits"
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(lerna-antd-management-fast-template): publish",
+      "changelogPreset": "conventional-changelog-conventionalcommits"
+    }
+  }
+}
