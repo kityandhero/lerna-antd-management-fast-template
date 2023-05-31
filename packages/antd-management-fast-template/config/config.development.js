@@ -1,6 +1,6 @@
 import { headScripts as headScriptsSource } from './extraScript.development';
 
-const corsTargetDomain = '';
+const corsTargetDomain = 'http://master.api.oa.local.com';
 
 const headScripts = [
   ...headScriptsSource,

@@ -8,8 +8,6 @@ import {
   getCurrentOperator,
 } from 'antd-management-fast-framework';
 
-import { accessWayCollection } from '../../customConfig';
-
 import { PageHeaderContent } from './PageHeaderContent';
 import ShortcutPanel from './ShortcutPanel';
 
@@ -22,8 +20,6 @@ const { MultiPage } = DataMultiPageView;
   schedulingControl,
 }))
 class Index extends MultiPage {
-  componentAuthority = accessWayCollection.simple.pageList.permission;
-
   resetDataAfterLoad = false;
 
   showSearchForm = false;

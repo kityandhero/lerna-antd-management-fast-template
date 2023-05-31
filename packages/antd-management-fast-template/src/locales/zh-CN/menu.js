@@ -20,6 +20,30 @@ export default {
   'menu.currentOperator.center': '个人中心',
   'menu.currentOperator.setting': '个人设置',
 
+  'menu.result': '结果页',
+  'menu.result-mini': '结果页',
+
+  'menu.result.forbidden': '禁止页',
+  'menu.result.forbidden-mini': '禁止',
+
+  'menu.result.info': '信息页',
+  'menu.result.info-mini': '信息页',
+
+  'menu.result.serverError': '服务器错误页',
+  'menu.result.serverError-mini': '错误',
+
+  'menu.result.localError': '本地错误页',
+  'menu.result.localError-mini': '错误',
+
+  'menu.result.warn': '警告页',
+  'menu.result.warn-mini': '警告页',
+
+  'menu.result.success': '成功页',
+  'menu.result.success-mini': '成功',
+
+  'menu.result.notFound': '404页',
+  'menu.result.notFound-mini': '404',
+
   'menu.exception': '异常页',
   'menu.exception-mini': '异常页',
 

@@ -1,10 +1,15 @@
 window.appInitCustomLocalCore = {
+  layoutSetting: {
+    fixSiderbar: true,
+    layout: 'side',
+    splitMenus: true,
+  },
   successCode: 200,
   authenticationFailCode: 2001,
   authenticationFailRedirectPath: '/entrance/signIn',
   authorizationFailRedirectPath: '/common/result/forbidden',
   // 远程登陆接口Url相对地址
-  // signInApi: 'entranceGuard/signIn',
+  signInApi: 'entrance/signIn',
   signInSimulationData: { currentAuthority: ['super'] },
   currentOperatorSimulationData: {
     avatar:
