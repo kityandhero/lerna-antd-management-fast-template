@@ -1,0 +1,16 @@
+{
+  "list": [
+    {
+      "name": "article",
+      "apis": [
+        {
+          "effect": "pageList",
+          "service": "pageListData",
+          "api": "/article/pageList",
+          "type": "pageList"
+        }
+      ],
+      "cover": true
+    }
+  ]
+}

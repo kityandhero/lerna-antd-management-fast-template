@@ -10,7 +10,7 @@ import { pageListData } from '../services/article';
 
 export function buildModel() {
   return {
-    namespace: 'simple',
+    namespace: 'article',
 
     state: {
       ...getTacitlyState(),
